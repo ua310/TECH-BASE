@@ -8,9 +8,9 @@
 <body>
     <?php
     // m4-1 DB接続設定
-    $dsn = "データベース名"; // データベース名：tb230071db
-    $user = "ユーザー名"; // ユーザー名：tb-230071
-    $password = "パスワード"; // パスワード：JGSsKms4hU
+    $dsn = "データベース名"; // データベース名
+    $user = "ユーザー名"; // ユーザー名
+    $password = "パスワード"; // パスワード
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
     // m4-2 テーブル作成
